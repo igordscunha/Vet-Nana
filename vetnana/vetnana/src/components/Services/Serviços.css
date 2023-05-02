@@ -1,0 +1,6 @@
+.serviços{
+    background-image: url('/public/images/bggato.jpg');
+    background-attachment: scroll;
+    background-position-x: 20%;
+    background-size: cover;
+}

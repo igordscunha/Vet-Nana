@@ -1,0 +1,30 @@
+.banner{
+    background-image: url('/public/images/bgcachorro.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 820px;
+}
+
+.nav-elements.active{
+    display: flex;
+    animation: transicao 0.8s linear;
+}
+
+@keyframes transicao{
+    from { opacity: 0; }
+
+    to { opacity: 10; }
+}
+
+@media screen and (max-width: 640px){
+    .banner{
+        background-position-x: 20%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner{
+        background-position-x: 20%;
+        height: 720px;
+    }
+}
